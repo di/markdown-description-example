@@ -10,6 +10,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',  # This is important!
     name='markdown-description-example',
+    setup_requires=['setuptools>=38.6.0'],
     url='http://github.com/di/markdown-description-example',
     version='0.0.1',
 )
